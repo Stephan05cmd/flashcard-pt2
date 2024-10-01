@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1, h3,p,h4{
+  color: #f9f1f1;
+  text-align: center;
+
+}
+.flashcard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px; 
+  height: 200px; 
+  border-radius: 10px; 
+  padding: 20px; 
+  margin: auto; 
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.flashcard-container:hover {
+  transform: translateY(-10px); 
+}
+body {
+  background-image: url('https://wumbo.net/concepts/unit-circle-chart-pi/unit-circle-chart-pi-12-650-650.dark.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+button{
+  color:black;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: black;
+  color: white 
+}
+
+.button-flipcardy{
+  width: 100%;
+  margin-top: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+
