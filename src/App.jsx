@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css'
 import Flashcard from "./components/flipcardy"
 import cardArray from "./database/dataarray"
+import DerivForm from "./components/DerivForm"
 const App = () => {
 const [count, setCount] = useState(0)
 const [flipIt, setFlipit] = useState(false)
@@ -20,7 +21,6 @@ const cycleForward = () => {
     setFlipit(false)
   }
 }
-
 
   return (
     <>
@@ -46,6 +46,7 @@ const cycleForward = () => {
         <button onClick={cycleBack}>Back</button>
         <button onClick={cycleForward}>Forward</button>
       </div>
+      <DerivForm backCard={cardArray[count].backCard} />
     </div>
     </>
     

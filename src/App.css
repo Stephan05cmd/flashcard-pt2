@@ -53,7 +53,21 @@ button:hover{
   align-items: center;
   
 }
+#wrong {
+  border-radius: 10px;
+  border: 2px solid red;
+  color: red
+}
 
+#correct {
+  border-radius: 10px;
+  border: 2px solid chartreuse;
+  color: chartreuse
+}
+.Form-container{
+  width: 30%;
+  margin: auto;
+}
 
 
 
